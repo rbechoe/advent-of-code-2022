@@ -13,3 +13,18 @@ F:\HKU\Jaar 3\advent-of-code-2022\Advent Of Code\obj\Debug\net6.0\refint\Advent 
 F:\HKU\Jaar 3\advent-of-code-2022\Advent Of Code\obj\Debug\net6.0\Advent Of Code.pdb
 F:\HKU\Jaar 3\advent-of-code-2022\Advent Of Code\obj\Debug\net6.0\Advent Of Code.genruntimeconfig.cache
 F:\HKU\Jaar 3\advent-of-code-2022\Advent Of Code\obj\Debug\net6.0\ref\Advent Of Code.dll
+C:\Users\rbech\HKU\advent-of-code-2022\Advent Of Code\bin\Debug\net6.0\Advent Of Code.exe
+C:\Users\rbech\HKU\advent-of-code-2022\Advent Of Code\bin\Debug\net6.0\Advent Of Code.deps.json
+C:\Users\rbech\HKU\advent-of-code-2022\Advent Of Code\bin\Debug\net6.0\Advent Of Code.runtimeconfig.json
+C:\Users\rbech\HKU\advent-of-code-2022\Advent Of Code\bin\Debug\net6.0\Advent Of Code.dll
+C:\Users\rbech\HKU\advent-of-code-2022\Advent Of Code\bin\Debug\net6.0\Advent Of Code.pdb
+C:\Users\rbech\HKU\advent-of-code-2022\Advent Of Code\obj\Debug\net6.0\Advent Of Code.csproj.AssemblyReference.cache
+C:\Users\rbech\HKU\advent-of-code-2022\Advent Of Code\obj\Debug\net6.0\Advent Of Code.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbech\HKU\advent-of-code-2022\Advent Of Code\obj\Debug\net6.0\Advent Of Code.AssemblyInfoInputs.cache
+C:\Users\rbech\HKU\advent-of-code-2022\Advent Of Code\obj\Debug\net6.0\Advent Of Code.AssemblyInfo.cs
+C:\Users\rbech\HKU\advent-of-code-2022\Advent Of Code\obj\Debug\net6.0\Advent Of Code.csproj.CoreCompileInputs.cache
+C:\Users\rbech\HKU\advent-of-code-2022\Advent Of Code\obj\Debug\net6.0\Advent Of Code.dll
+C:\Users\rbech\HKU\advent-of-code-2022\Advent Of Code\obj\Debug\net6.0\refint\Advent Of Code.dll
+C:\Users\rbech\HKU\advent-of-code-2022\Advent Of Code\obj\Debug\net6.0\Advent Of Code.pdb
+C:\Users\rbech\HKU\advent-of-code-2022\Advent Of Code\obj\Debug\net6.0\Advent Of Code.genruntimeconfig.cache
+C:\Users\rbech\HKU\advent-of-code-2022\Advent Of Code\obj\Debug\net6.0\ref\Advent Of Code.dll
