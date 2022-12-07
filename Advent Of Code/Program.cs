@@ -7,11 +7,12 @@
         //private static Day3 day3 = new Day3();
         //private static Day4 day4 = new Day4();
         //private static Day5 day5 = new Day5();
-        private static Day6 day6 = new Day6();
+        //private static Day6 day6 = new Day6();
+        private static Day7 day7 = new Day7();
 
         public static void Main()
         {
-            day6.PrintResult();
+            day7.PrintResult();
         }
     }
 }
