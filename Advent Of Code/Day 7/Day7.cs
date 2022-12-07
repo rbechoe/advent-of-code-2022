@@ -7,15 +7,24 @@
         DirectoryObject rootDirectory;
 
         int totalRemovable = 0;
+        int totalSize = 70000000;
+        int usedSpace = 0;
+        int freeSpace = 0;
+        int spaceToGet = 0;
+        int requiredSpace = 30000000;
+
+        string removableDir = "";
+        int sizeOfDir = int.MaxValue;
 
         public Day7()
         {
-            //lines = File.ReadAllLines("F:\\HKU\\Jaar 3\\advent-of-code-2022\\Advent Of Code\\Day 6\\day6.txt"); //pc
-            lines = File.ReadAllLines("C:\\Users\\rbech\\HKU\\advent-of-code-2022\\Advent Of Code\\Day 7\\day7.txt"); //laptop
+            lines = File.ReadAllLines("F:\\HKU\\Jaar 3\\advent-of-code-2022\\Advent Of Code\\Day 7\\day7.txt"); //pc
+            //lines = File.ReadAllLines("C:\\Users\\rbech\\HKU\\advent-of-code-2022\\Advent Of Code\\Day 7\\day7.txt"); //laptop
             rootDirectory = new DirectoryObject("/");
 
             PopulateFiles();
             Part1();
+            Part2();
         }
 
         ~Day7()
@@ -71,6 +80,7 @@
                     if (!HasDirectory(curDir.directories, info[1]))
                     {
                         DirectoryObject newDir = new DirectoryObject(info[1]);
+                        newDir.parentDirectory = curDir;
                         curDir.directories.Add(newDir);
                     }
                 }
@@ -92,7 +102,31 @@
         {
             UpdateDirSize(rootDirectory);
             CheckSizes(rootDirectory);
-            Tree(rootDirectory, 1);
+            //Tree(rootDirectory, 1);
+        }
+
+        private void Part2()
+        {
+            usedSpace = rootDirectory.directorySizeTotal;
+            freeSpace = totalSize - usedSpace;
+            spaceToGet = requiredSpace - freeSpace;
+            CheckDirSizes(rootDirectory);
+            Console.WriteLine(removableDir);
+            Console.WriteLine(sizeOfDir);
+        }
+
+        private void CheckDirSizes(DirectoryObject dir)
+        {
+            if (dir.directorySizeTotal >= spaceToGet && dir.directorySizeTotal <= sizeOfDir)
+            {
+                removableDir = dir.directoryName;
+                sizeOfDir = dir.directorySizeTotal;
+            }
+
+            foreach (DirectoryObject dirChild in dir.directories)
+            {
+                CheckDirSizes(dirChild);
+            }
         }
 
         private void UpdateDirSize(DirectoryObject dir)
@@ -116,10 +150,6 @@
             foreach (DirectoryObject dirChild in dir.directories)
             {
                 CheckSizes(dirChild);
-                if (dirChild.directorySizeTotal <= directorySizeLimit)
-                {
-                    totalRemovable += dirChild.directorySizeTotal;
-                }
             }
         }
 
@@ -132,12 +162,11 @@
                 val += "-";
             }
 
+            Console.WriteLine(val + dir.directoryName + "(" + dir.directorySizeTotal + ")" + " " + dir.files.Count);
             foreach (DirectoryObject dirChild in dir.directories)
             {
                 Tree(dirChild, iteration + 1);
             }
-
-            Console.WriteLine(val + dir.directoryName + "(" + dir.directorySizeTotal + ")");
         }
 
         private bool HasDirectory(List<DirectoryObject> directories, string directoryName)

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rbech\\HKU\\advent-of-code-2022\\Advent Of Code\\Advent Of Code.csproj": {}
+    "F:\\HKU\\Jaar 3\\advent-of-code-2022\\Advent Of Code\\Advent Of Code.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rbech\\HKU\\advent-of-code-2022\\Advent Of Code\\Advent Of Code.csproj": {
+    "F:\\HKU\\Jaar 3\\advent-of-code-2022\\Advent Of Code\\Advent Of Code.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rbech\\HKU\\advent-of-code-2022\\Advent Of Code\\Advent Of Code.csproj",
+        "projectUniqueName": "F:\\HKU\\Jaar 3\\advent-of-code-2022\\Advent Of Code\\Advent Of Code.csproj",
         "projectName": "Advent Of Code",
-        "projectPath": "C:\\Users\\rbech\\HKU\\advent-of-code-2022\\Advent Of Code\\Advent Of Code.csproj",
+        "projectPath": "F:\\HKU\\Jaar 3\\advent-of-code-2022\\Advent Of Code\\Advent Of Code.csproj",
         "packagesPath": "C:\\Users\\rbech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rbech\\HKU\\advent-of-code-2022\\Advent Of Code\\obj\\",
+        "outputPath": "F:\\HKU\\Jaar 3\\advent-of-code-2022\\Advent Of Code\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rbech\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,8 +45,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -55,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
