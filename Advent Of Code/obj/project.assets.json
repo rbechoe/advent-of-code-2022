@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\HKU\\Jaar 3\\advent-of-code-2022\\Advent Of Code\\Advent Of Code.csproj",
+      "projectUniqueName": "C:\\Users\\rbech\\HKU\\advent-of-code-2022\\Advent Of Code\\Advent Of Code.csproj",
       "projectName": "Advent Of Code",
-      "projectPath": "F:\\HKU\\Jaar 3\\advent-of-code-2022\\Advent Of Code\\Advent Of Code.csproj",
+      "projectPath": "C:\\Users\\rbech\\HKU\\advent-of-code-2022\\Advent Of Code\\Advent Of Code.csproj",
       "packagesPath": "C:\\Users\\rbech\\.nuget\\packages\\",
-      "outputPath": "F:\\HKU\\Jaar 3\\advent-of-code-2022\\Advent Of Code\\obj\\",
+      "outputPath": "C:\\Users\\rbech\\HKU\\advent-of-code-2022\\Advent Of Code\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rbech\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -60,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
